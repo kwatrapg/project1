@@ -1,6 +1,7 @@
 public class Hello{
 public static void main (String[] args){
-	System.out.println("Welcome in New World");
+	for ( int i=1;i<=10;i++ ){
+	System.out.println("Welcome in New World" + i);
 }
-
+}
 }
